@@ -774,7 +774,8 @@ textarea.form-control {
 	position: relative;
 	display: block;
 	min-height: auto;
-	max-width: 100%;
+	width: 80%;
+	margin: auto;
 	opacity: 0.8;
 }
 
@@ -835,7 +836,7 @@ textarea.form-control {
 /*---------------*/
 
 figure.effect-bubba {
-	background: #9e5406;
+	background: none;
 }
 
 figure.effect-bubba img {
@@ -861,32 +862,22 @@ figure.effect-bubba figcaption::after {
 	transition: opacity 0.35s, transform 0.35s;
 }
 
-figure.effect-bubba figcaption::before {
-	border-top: 1px solid #fff;
-	border-bottom: 1px solid #fff;
-	-webkit-transform: scale(0,1);
-	transform: scale(0,1);
-}
-
-figure.effect-bubba figcaption::after {
-	border-right: 1px solid #fff;
-	border-left: 1px solid #fff;
-	-webkit-transform: scale(1,0);
-	transform: scale(1,0);
-}
-
-figure.effect-bubba h2 {
+/*figure.effect-bubba h2 {
 	padding-top: 10%;
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 	-webkit-transform: translate3d(0,-20px,0);
 	transform: translate3d(0,-20px,0);
-    color: #fff;
-}
+    color: #333;
+}*/
 
 figure.effect-bubba p {
 	padding: 20px 2.5em;
 	opacity: 0;
+	color: #333;
+	font-size: 14px;
+	line-height: 18px;
+	text-transform: none;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 	-webkit-transform: translate3d(0,20px,0);
