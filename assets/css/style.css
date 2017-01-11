@@ -57,12 +57,12 @@ img {
 }
 
 a {
-	color: #E7746F;
+	color: #c04677;
 }
 
 a:hover {
 	text-decoration: none;
-	color: #999;
+	color: #75ad86;
 }
 
 /* ---------------------------------------------- /*
@@ -513,6 +513,19 @@ textarea.form-control {
 	color: #333;
 }
 
+/* ---------------------------------------------- /*
+ * Bridal Party
+/* ---------------------------------------------- */
+.bridal {
+	text-align: center;
+	font-family: 'Storybook';
+	text-transform: none;
+	font-weight: normal;
+	letter-spacing: 0px;
+	font-size: 84px;
+	margin-bottom: -20px;
+	margin-top: -20px;
+}
 
 /* ---------------------------------------------- /*
  * Footer
@@ -578,7 +591,7 @@ textarea.form-control {
 .navbar-custom .navbar-nav > li.active a {
 	background: none;
 	outline: 0;
-	text-decoration: underline;
+	color: #c04677;
 }
 
 .navbar-custom .navbar-brand {
