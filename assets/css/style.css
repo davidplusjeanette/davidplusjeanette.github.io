@@ -8,9 +8,11 @@
 
 @font-face {
     font-family:'Storybook';
-    src: url('Storybook.eot');
-	src: url('Storybook.eot?#iefix') format('embedded-opentype'),
-		url('Storybook.svg#Storybook') format('svg');
+    src: url('../fonts/Storybook.eot');
+	src: url('../fonts/Storybook.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Storybook.woff') format('woff'),
+		url('../fonts/Storybook.woff2') format('woff2'),
+		url('../fonts/Storybook.svg#Storybook') format('svg');
     font-weight: 400;
     font-style: normal;
     font-stretch: normal;
@@ -19,9 +21,11 @@
 
 @font-face {
     font-family:'Storybook Left';
-    src: url('Storybook Left.eot');
-	src: url('Storybook Left.eot?#iefix') format('embedded-opentype'),
-		url('Storybook Left.svg#Storybook Left') format('svg');
+    src: url('../fonts/Storybook Left.eot');
+	src: url('../fonts/Storybook Left.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Storybook Left.woff') format('woff'),
+		url('../fonts/Storybook Left.woff2') format('woff2'),
+		url('../fonts/Storybook Left.svg#Storybook Left') format('svg');
     font-weight: 400;
     font-style: normal;
     font-stretch: normal;
@@ -30,9 +34,11 @@
 
 @font-face {
     font-family:'Storybook Right';
-    src: url('Storybook Right.eot');
-	src: url('Storybook Right.eot?#iefix') format('embedded-opentype'),
-		url('Storybook Right.svg#Storybook Right') format('svg');
+    src: url('../fonts/Storybook Right.eot');
+	src: url('../fonts/Storybook Right.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Storybook Right.woff') format('woff'),
+		url('../fonts/Storybook Right.woff2') format('woff2'),
+		url('../fonts/Storybook Right.svg#Storybook Right') format('svg');
     font-weight: 400;
     font-style: normal;
     font-stretch: normal;
