@@ -774,7 +774,8 @@ textarea.form-control {
 	position: relative;
 	display: block;
 	min-height: auto;
-	width: 80%;
+	width: 65%;
+	max-width: 65%;
 	margin: auto;
 	opacity: 0.8;
 }
