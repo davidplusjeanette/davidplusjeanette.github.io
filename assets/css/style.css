@@ -534,22 +534,26 @@ textarea.form-control {
 	font-weight: normal;
 	letter-spacing: 0px;
 	font-size: 30px;
-	margin-bottom: -20px;
-	margin-top: -20px;
+	margin-bottom: 15px;
+	margin-top: 5px;
 }
 
 /* ---------------------------------------------- /*
  * Plan Your Stay
 /* ---------------------------------------------- */
 .planyourtrip-subtitle {
-	padding-top: 20px;
-	padding-bottom: 50px;
+	padding-bottom: 30px;
 }
 
 .column-split {
-    -webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count: 2; /* Firefox */
-    column-count: 2;
+    text-align: center;
+	width: 45%;
+	margin: auto;
+	font-size: 16px;
+}
+
+.clear {
+	padding-top: 30px;
 }
 
 /* ---------------------------------------------- /*
