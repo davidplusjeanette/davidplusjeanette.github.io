@@ -342,7 +342,7 @@ textarea.form-control {
  * Home
 /* ---------------------------------------------- */
 
-@media (max-width : 600px) {
+@media (max-width : 480px) {
 	#home {
 		background: url(../images/hero-mobile.png);
 		background-color: #222;
@@ -357,7 +357,7 @@ textarea.form-control {
 	}
 }
 
-@media (min-width : 600px) {
+@media (min-width : 480px) {
 	#home {
 		background: url(../images/hero.png);
 		background-color: #222;
@@ -450,7 +450,7 @@ textarea.form-control {
 	transform: translateY(-50%);
 }
 
-@media (max-width : 600px) {
+@media (max-width : 480px) {
 	.ourstory-desc{
 		font-family: 'Storybook';
 		line-height: 80px;
@@ -460,7 +460,7 @@ textarea.form-control {
 	}
 }
 
-@media (min-width : 600px) {
+@media (min-width : 480px) {
 	.ourstory-desc{
 		font-family: 'Storybook';
 		line-height: 80px;
@@ -798,6 +798,18 @@ textarea.form-control {
 	
 	.rsvp-title {
 		font-size: 150px;
+	}
+	
+	.pfblock-title {
+		font-size: 30px;
+	}
+	
+	.sub-header {
+		font-size: 25px;
+	}
+	
+	.column-split {
+		width: 80%;
 	}
 
 }
