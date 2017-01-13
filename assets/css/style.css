@@ -811,6 +811,16 @@ textarea.form-control {
 	.column-split {
 		width: 80%;
 	}
+	
+	.grid figure img {
+		position: relative;
+		display: block;
+		min-height: auto;
+		width: 100%;
+		max-width: 100%;
+		margin: auto;
+		opacity: 0.8;
+	}
 
 }
 
@@ -836,7 +846,7 @@ textarea.form-control {
 	position: relative;
 	float: left;
 	overflow: hidden;
-	margin: 10px 1%;
+/*	margin: 10px 1%;*/
 	min-width: 100%;
 	max-width: 100%;
 	height: auto;
@@ -850,7 +860,7 @@ textarea.form-control {
 	display: block;
 	min-height: auto;
 	width: 65%;
-	max-width: 65%;
+	max-width:65%;
 	margin: auto;
 	opacity: 0.8;
 }
