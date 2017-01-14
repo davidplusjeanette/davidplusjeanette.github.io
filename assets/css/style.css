@@ -49,6 +49,8 @@ body {
 	font: 300 14px/1.8 'Courier New', monotype;
 	color: #333;
 	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
 }
 
 img {
@@ -63,17 +65,6 @@ a {
 
 a:hover {
 	color: #75ad86;
-}
-
-/* ---------------------------------------------- /*
- * Adjustment for width discrepancy
-/* ---------------------------------------------- */
-html,body
-{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;    
 }
 
 /* ---------------------------------------------- /*
@@ -369,7 +360,7 @@ textarea.form-control {
 	}
 }
 
-@media (min-width : 480px) {
+@media (min-width : 481px) {
 	#home {
 		background: url(../images/hero.png);
 		background-color: #222;
