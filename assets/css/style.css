@@ -799,6 +799,23 @@ textarea.form-control {
  * Media
 /* ---------------------------------------------- */
 
+@media (max-width: 768px) {
+	.our-story-desc {
+		font-size: 80px;
+		margin-bottom: 0px;
+		line-height: 15px;
+	}
+	
+	.story h2 {
+		font-size: 16px;
+	}
+	
+	.story-btn {
+		padding: 15px 70px;
+		font-size: 16px;
+	}
+}
+
 @media (max-width: 480px) {
 
 	h1 {
