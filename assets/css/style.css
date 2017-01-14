@@ -570,6 +570,10 @@ textarea.form-control {
 	display: block;
 }
 
+.rsvp-bg {
+	background-color: #586659;
+}
+
 
 /* ---------------------------------------------- /*
  * Footer
@@ -812,14 +816,25 @@ textarea.form-control {
 		width: 80%;
 	}
 	
-	.grid figure img {
-		position: relative;
-		display: block;
-		min-height: auto;
-		width: 100%;
-		max-width: 100%;
+	.bridal-pics-container {
 		margin: auto;
-		opacity: 0.8;
+		width: 68% !important;
+	}
+
+}
+
+@media (min-width: 480px) {
+	.bridal-pics-container {
+		margin: auto;
+		width: 53% !important;
+	}
+}
+
+@media (min-width: 768px) {
+
+	.bridal-pics-container {
+		margin: auto;
+		width: 70% !important;
 	}
 
 }
@@ -846,7 +861,7 @@ textarea.form-control {
 	position: relative;
 	float: left;
 	overflow: hidden;
-/*	margin: 10px 1%;*/
+	margin: 10px 1%;
 	min-width: 100%;
 	max-width: 100%;
 	height: auto;
@@ -859,8 +874,8 @@ textarea.form-control {
 	position: relative;
 	display: block;
 	min-height: auto;
-	width: 65%;
-	max-width:65%;
+	width: 100%;
+	max-width:100%;
 	margin: auto;
 	opacity: 0.8;
 }
@@ -882,10 +897,12 @@ textarea.form-control {
 .grid figure figcaption,
 .grid figure figcaption > a {
 	position: absolute;
-	top: 0;
+	top: -15px;
 	left: 0;
 	width: 100%;
 	height: 100%;
+	margin: auto;
+	text-align: center;
 }
 
 /* Anchor will cover the whole item by default */
@@ -913,7 +930,7 @@ textarea.form-control {
 }
 
 .grid figure p {
-	letter-spacing: 1px;
+	letter-spacing: 0px;
 	font-size: 68.5%;
 }
 
@@ -932,7 +949,7 @@ figure.effect-bubba img {
 }
 
 figure.effect-bubba:hover img {
-	opacity: 0.4;
+	opacity: 0.15;
 }
 
 figure.effect-bubba figcaption::before,
@@ -958,7 +975,10 @@ figure.effect-bubba figcaption::after {
 }*/
 
 figure.effect-bubba p {
-	padding: 20px 2.5em;
+/*	padding: 20px 2.5em;*/
+/*	padding-top: 25px;*/
+	padding-left: 5px;
+	padding-right: 5px;
 	opacity: 0;
 	color: #333;
 	font-size: 14px;
@@ -982,4 +1002,11 @@ figure.effect-bubba:hover p {
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
+}
+
+.people-title {
+	font-size: 17.5px !important;
+	margin-top: 5px !important;
+	margin-bottom: 10px !important;
+	letter-spacing: -1px !important;
 }
