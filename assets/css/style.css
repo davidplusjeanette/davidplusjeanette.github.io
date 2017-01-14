@@ -402,6 +402,7 @@ textarea.form-control {
 	position: absolute;
 	width: 100%;
 	top: 30%;
+	margin: auto;
 	left: 0;
 	text-align: center;
 	-webkit-transform: translate(0%, -50%);
