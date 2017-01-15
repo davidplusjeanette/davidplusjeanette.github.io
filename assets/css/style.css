@@ -822,7 +822,8 @@ textarea.form-control {
 	}
 	
 	.rsvp-title {
-		font-size: 150px;
+		font-size: 135px;
+		padding-top: 20px;
 	}
 	
 	.pfblock-title {
