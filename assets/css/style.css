@@ -355,8 +355,10 @@ textarea.form-control {
 		-webkit-background-size: cover;
 		   -moz-background-size: cover;
 			 -o-background-size: cover;
-				background-size: cover;
+				background-
+				size: cover;
 		padding: 0;
+		height: 100vh;
 	}
 }
 
@@ -372,6 +374,7 @@ textarea.form-control {
 			 -o-background-size: cover;
 				background-size: cover;
 		padding: 0;
+		height: 100vh;
 	}
 }
 
@@ -439,6 +442,7 @@ textarea.form-control {
 			background-size: cover;
 	padding: 50px 0;
 	color: #999;
+	height: 100vh;
 }
 
 .story h2 {
@@ -726,7 +730,7 @@ textarea.form-control {
 	position: absolute;
 	left: 50%;
 	bottom: 40px;
-	border: 2px solid #fff;
+/*	border: 1px solid #fff;*/
 	border-radius: 50%;
 	height: 50px;
 	width: 50px;
@@ -734,19 +738,21 @@ textarea.form-control {
 	display: block;
 	z-index: 10;
     text-align: center;
+	font-size: 28px;
+	font-weight: 400;
 }
 
 .scroll-down span{
     position: relative;
     color: #fff;
     -webkit-animation-name: drop;
-	-webkit-animation-duration: 1s;
+	-webkit-animation-duration: 2s;
 	-webkit-animation-timing-function: linear;
 	-webkit-animation-delay: 0s;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-play-state: running;
 	animation-name: drop;
-	animation-duration: 1s;
+	animation-duration: 2s;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
