@@ -359,6 +359,7 @@ textarea.form-control {
 				size: cover;
 		padding: 0;
 		height: 100vh;
+		width: 100%;
 	}
 }
 
@@ -375,6 +376,7 @@ textarea.form-control {
 				background-size: cover;
 		padding: 0;
 		height: 100vh;
+		width: 100%;
 	}
 }
 
@@ -433,7 +435,6 @@ textarea.form-control {
 .story {
 	background: url(../images/engagement1.png);
 	background-color: #222;
-	height: 100%;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 	-webkit-background-size: cover;
@@ -442,7 +443,8 @@ textarea.form-control {
 			background-size: cover;
 	padding: 50px 0;
 	color: #999;
-	height: 100vh;
+	min-height: 800px;
+	height: 115vh;
 }
 
 .story h2 {
@@ -745,7 +747,13 @@ textarea.form-control {
 .scroll-down span{
     position: relative;
     color: #fff;
-    -webkit-animation-name: drop;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-name: glow;
+	-webkit-animation-iteration-count: infinite;
+	animation-duration: 2s;
+	animation-name: glow;
+	animation-iteration-count: infinite;
+/*    -webkit-animation-name: drop;
 	-webkit-animation-duration: 2s;
 	-webkit-animation-timing-function: linear;
 	-webkit-animation-delay: 0s;
@@ -756,10 +764,15 @@ textarea.form-control {
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
-	animation-play-state: running;
+	animation-play-state: running;*/
 }
 
-@-webkit-keyframes drop	{
+@-webkit-keyframes glow {
+       from { text-shadow: 0 0 0px #ffffff; }
+       to { text-shadow: 0 0 50px #ffffff; }
+   }
+
+/*@-webkit-keyframes drop	{
 	0%   { top:0px;  opacity: 0;}
 	30%  { top:10px; opacity: 1;}
 	100% { top:25px; opacity: 0;}
@@ -769,7 +782,7 @@ textarea.form-control {
 	0%   { top:0px;  opacity: 0;}
 	30%  { top:10px; opacity: 1;}
 	100% { top:25px; opacity: 0;}
-}
+}*/
 
 /* ---------------------------------------------- /*
  * Preloader
