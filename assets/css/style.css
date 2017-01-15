@@ -443,8 +443,8 @@ textarea.form-control {
 			background-size: cover;
 	padding: 50px 0;
 	color: #999;
-	min-height: 700px;
-	height: 115vh;
+	min-height: 600px;
+	height: 100vh;
 }
 
 .story h2 {
