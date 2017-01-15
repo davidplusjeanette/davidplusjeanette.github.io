@@ -413,16 +413,8 @@ textarea.form-control {
     font-weight: 800;
 }
 
-.start {
-	font-family: 'Abel', sans-serif;
-	font-size: 20px;
-	font-style: normal;
-	text-transform: uppercase;
-	margin: 15px 0;
-}
-
 .ornament {
-	width: 55%;
+	width: 275px;
 }
 
 /* ---------------------------------------------- /*
