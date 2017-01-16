@@ -345,7 +345,7 @@ textarea.form-control {
  * Home
 /* ---------------------------------------------- */
 
-@media (max-width : 480px) {
+@media (max-width : 768px) {
 	#home {
 		background: url(../images/hero-mobile.jpg);
 		background-color: #222;
@@ -363,7 +363,7 @@ textarea.form-control {
 	}
 }
 
-@media (min-width : 481px) {
+@media (min-width : 768px) {
 	#home {
 		background: url(../images/hero.jpg);
 		background-color: #222;
