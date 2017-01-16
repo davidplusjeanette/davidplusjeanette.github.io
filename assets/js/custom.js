@@ -57,15 +57,13 @@
 		// $(window).resize(function(){
 		// 	$(".screen-height").height($(window).height());
 		// });
-		
-		$('#home').css({'background-attachment': 'scroll'});
 
-		// if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
-		// 	$('#home').css({'background-attachment': 'scroll'});
-		// } else {
-		// 	$('#home').parallax('50%', 0.1);
-		// }
-		//
+		if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
+			$('#home').css({'background-attachment': 'scroll'});
+		} else {
+			$('#home').parallax('50%', 0.1);
+		}
+
 
 		/* ---------------------------------------------- /*
 		 * WOW Animation When You Scroll
