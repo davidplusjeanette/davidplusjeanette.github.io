@@ -855,7 +855,7 @@ textarea.form-control {
 	
 	.bridal-pics-container {
 		margin: auto;
-		width: 80% !important;
+		width: 75% !important;
 	}
 
 }
@@ -863,7 +863,14 @@ textarea.form-control {
 @media (min-width: 480px) {
 	.bridal-pics-container {
 		margin: auto;
-		width: 53% !important;
+		width: 68% !important;
+	}
+}
+
+@media (min-width: 600px) {
+	.bridal-pics-container {
+		margin: auto;
+		width: 48% !important;
 	}
 }
 
@@ -871,7 +878,7 @@ textarea.form-control {
 
 	.bridal-pics-container {
 		margin: auto;
-		width: 75% !important;
+		width: 76% !important;
 	}
 
 }
@@ -912,7 +919,6 @@ textarea.form-control {
 	display: block;
 	min-height: auto;
 	width: 100%;
-	max-width: 250px;
 	margin: auto;
 	opacity: 0.8;
 }
@@ -968,7 +974,7 @@ textarea.form-control {
 
 .grid figure p {
 	letter-spacing: 0px;
-	font-size: 65.5%;
+	font-size: 70%;
 }
 
 /*---------------*/
@@ -1003,12 +1009,12 @@ figure.effect-bubba figcaption::after {
 }
 
 figure.effect-bubba p {
-	padding-left: 5px;
-	padding-right: 5px;
+	padding-left: 3px;
+	padding-right: 3px;
 	opacity: 0;
 	color: #333;
-	font-size: 13.5px;
-	line-height: 16px;
+	font-size: 13px;
+	line-height: 13px;
 	text-transform: none;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
