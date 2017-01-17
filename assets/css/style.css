@@ -861,24 +861,19 @@ textarea.form-control {
 }
 
 @media (min-width: 480px) {
-	.bridal-pics-container {
-		margin: auto;
-		width: 60% !important;
-	}
-}
 
-@media (min-width: 600px) {
 	.bridal-pics-container {
 		margin: auto;
 		width: 55% !important;
 	}
+
 }
 
 @media (min-width: 768px) {
 
 	.bridal-pics-container {
 		margin: auto;
-		width: 72% !important;
+		width: 70% !important;
 	}
 
 }
