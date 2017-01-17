@@ -557,7 +557,7 @@ textarea.form-control {
 
 .column-split {
     text-align: center;
-	width: 50%;
+/*	width: 50%;*/
 	margin: auto;
 	font-size: 16px;
 }
@@ -879,7 +879,17 @@ textarea.form-control {
 		margin: auto;
 		width: 72% !important;
 	}
+	
+	.column-split {
+		width: 65%;
+	}
 
+}
+
+@media (min-width: 1000px) {
+	.column-split {
+		width: 50%;
+	}
 }
 
 /*--------------------------------*/
