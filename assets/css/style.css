@@ -45,6 +45,28 @@
     unicode-range: U+0020-00FD;
 }
 
+@font-face {
+	font-family: 'Masterblush-regular';
+	src: url('../fonts/Masterblush-Regular.eot');
+	src: url('../fonts/Masterblush-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Masterblush-Regular.woff2') format('woff2'),
+		url('../fonts/Masterblush-Regular.woff') format('woff'),
+		url('../fonts/Masterblush-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Masterblush-alt';
+	src: url('../fonts/Masterblush-Alt.eot');
+	src: url('../fonts/Masterblush-Alt.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Masterblush-Alt.woff2') format('woff2'),
+		url('../fonts/Masterblush-Alt.woff') format('woff'),
+		url('../fonts/Masterblush-Alt.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
 body {
 	font: 300 14px/1.8 'Courier New', monotype;
 	color: #333;
@@ -59,17 +81,17 @@ img {
 }
 
 a {
-	color: #c04677;
+	color: #b260ad;
 	text-decoration: underline;
 }
 
 a:hover {
-	color: #75ad86;
+	color: #81476e;
 }
 
-.contact {
-	color: #fff;
-}
+/*.contact {
+	color: #222;
+}*/
 
 /* ---------------------------------------------- /*
  * Transition elements
@@ -418,11 +440,13 @@ textarea.form-control {
 }
 
 .ornament {
-	width: 275px;
+	width: 180px;
 }
 
 .rsvp-ornament {
 	width: 345px;
+}
+
 }
 
 /* ---------------------------------------------- /*
@@ -466,38 +490,39 @@ textarea.form-control {
 
 @media (max-width : 480px) {
 	.ourstory-desc{
-		font-family: 'Storybook';
-		line-height: 80px;
+		font-family: 'Masterblush-alt';
+		line-height: 70px;
 	    margin-bottom: 30px;
-	    font-size: 70px;
+	    font-size: 50px;
 	    color: #fff;
 	}
 }
 
 @media (min-width : 480px) {
 	.ourstory-desc{
-		font-family: 'Storybook';
-		line-height: 80px;
+		font-family: 'Masterblush-alt';
+		line-height: 100px;
 	    margin-bottom: 30px;
-	    font-size: 100px;
+	    font-size: 80px;
 	    color: #fff;
 	}
 }
 
 .story-btn {
 	text-align: center;
-    background: rgba(255, 255, 255, .8);
-    color: #111;
+/*    background: rgba(255, 255, 255, .8);*/
+	background: #fafafa;
+    color: #333;
 	padding: 15px 56px;
 	margin-top: 20px;
 	font-family: 'Courier New', monospace;
 	font-size: 22px;
-	margin-left: -20px;
+	margin-left: -10px;
 }
 
 .story-btn:hover {
-	color: #111;
-	background: #fff;
+	color: #333;
+	background: #f6dbff;
 }
 
 .long-down {
@@ -510,7 +535,6 @@ textarea.form-control {
 
 .iconbox {
 	background: #fff;
-/*	border-bottom: 1px solid #d4d4d4;*/
 	text-align: center;
 	padding: 40px 20px;
 	margin: 0 0 20px;
@@ -574,23 +598,28 @@ textarea.form-control {
  * RSVP
 /* ---------------------------------------------- */
 .rsvp-title {
-	font-family: 'Storybook';
-	font-size: 190px;
+	font-family: 'Masterblush-alt';
+	font-size: 150px;
 	text-transform: none;
 	font-weight: normal;
 	letter-spacing: 0px;
-	margin-top: -70px;
-	margin-bottom: -10px;
-	color: #fff;
-	display: block;
+	margin-top: -40px;
+	color: #333;
 }
 
 .rsvp-bg {
-	background-color: #586659;
+	background-color: #d5bbde;
+	background: url(../images/rsvp.svg);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+		 -o-background-size: cover;
+			background-size: cover;
 }
 
 .rsvp-sub {
-	color: #fff;
+	color: #222;
 }
 
 
@@ -659,15 +688,15 @@ textarea.form-control {
 .navbar-custom .navbar-nav > li.active a {
 	background: none;
 	outline: 0;
-	color: #c04677;
+	color: #b260ad;
 }
 
 .navbar-custom .navbar-brand {
-	font-size: 50px;
-    font-family: 'Storybook';
+	font-size: 40px;
+    font-family: 'Masterblush-alt';
 	text-decoration: none;
 	text-transform: none;
-	padding-top: 11px;
+	padding-top: 17px;
 }
 
 .left{
@@ -777,17 +806,6 @@ textarea.form-control {
        to { text-shadow: 0 0 50px #ffffff; }
    }
 
-/*@-webkit-keyframes drop	{
-	0%   { top:0px;  opacity: 0;}
-	30%  { top:10px; opacity: 1;}
-	100% { top:25px; opacity: 0;}
-}
-
-@keyframes drop	{
-	0%   { top:0px;  opacity: 0;}
-	30%  { top:10px; opacity: 1;}
-	100% { top:25px; opacity: 0;}
-}*/
 
 /* ---------------------------------------------- /*
  * Preloader
