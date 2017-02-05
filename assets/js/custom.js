@@ -13,12 +13,14 @@
 	});
 	
 	$(window).resize( function() {
-
 	    var screenHeight = $(window).height();
 	      $('#home').css('height', screenHeight + 'px');
 	});
 
 	$(document).ready(function() {
+		
+	    var screenHeight = $(window).height();
+	      $('#home').css('height', screenHeight + 'px');
 		
 
 		/* ---------------------------------------------- /*
