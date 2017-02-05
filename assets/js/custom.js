@@ -13,6 +13,11 @@
 	});
 
 	$(document).ready(function() {
+		
+	    var screenHeight = $(window).height();
+	      $('home').css('height', screenHeight + 'px');
+		  
+		  console.log("hi");
 
 		/* ---------------------------------------------- /*
 		 * Smooth scroll / Scroll To Top
