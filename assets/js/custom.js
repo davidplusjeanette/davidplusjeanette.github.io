@@ -54,10 +54,10 @@
 		/* ---------------------------------------------- */
 
 
-		$(window).resize(function(){
-		    var screenHeight = $(window).height();
-		    $('#home').css('height', screenHeight + 'px');
-		});
+		// $(window).resize(function(){
+		//     var screenHeight = $(window).height();
+		//     $('#home').css('height', screenHeight + 'px');
+		// });
 
 		if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
 			$('#home').css({'background-attachment': 'scroll'});
