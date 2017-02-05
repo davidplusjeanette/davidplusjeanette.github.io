@@ -422,25 +422,15 @@ textarea.form-control {
 	transform: translateY(-50%);
 }
 
-@media (max-width : 700px) {
-	.ourstory-desc{
-		font-family: 'Masterblush-alt';
-		line-height: 70px;
-	    margin-bottom: 30px;
-	    font-size: 50px;
-	    color: #fff;
-	}
+
+.ourstory-desc{
+	font-family: 'Masterblush-alt';
+	line-height: 100px;
+    margin-bottom: 30px;
+    font-size: 80px;
+    color: #fff;
 }
 
-@media (min-width : 700px) {
-	.ourstory-desc{
-		font-family: 'Masterblush-alt';
-		line-height: 100px;
-	    margin-bottom: 30px;
-	    font-size: 80px;
-	    color: #fff;
-	}
-}
 
 .story-btn {
 	text-align: center;
@@ -518,7 +508,6 @@ textarea.form-control {
 
 .column-split {
     text-align: center;
-/*	width: 50%;*/
 	margin: auto;
 	font-size: 16px;
 }
@@ -772,10 +761,13 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 @media (max-width: 850px) {
-	.our-story-desc {
-		font-size: 80px;
-		margin-bottom: 0px;
-		line-height: 15px;
+	
+	.ourstory-desc{
+		font-family: 'Masterblush-alt';
+		line-height: 70px;
+	    margin-bottom: 30px;
+	    font-size: 50px;
+	    color: #fff;
 	}
 	
 	.story h2 {
@@ -825,24 +817,15 @@ textarea.form-control {
 
 }
 
-@media (max-width: 480px) {
-
-	.column-split {
-		width: 80%;
-	}
+@media (max-width: 768px) {
 	
 	.bridal-pics-container {
 		margin: auto;
-		width: 74% !important;
+		width: 255px !important;
 	}
 
-}
-
-@media (min-width: 480px) {
-
-	.bridal-pics-container {
-		margin: auto;
-		width: 55% !important;
+	.column-split {
+		width: 80%;
 	}
 
 }
@@ -851,7 +834,7 @@ textarea.form-control {
 
 	.bridal-pics-container {
 		margin: auto;
-		width: 72% !important;
+		width: 510px !important;
 	}
 	
 	.column-split {
@@ -860,10 +843,17 @@ textarea.form-control {
 
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 992px) {
+
+	.bridal-pics-container {
+		margin: auto;
+		width: 765px !important;
+	}
+
 	.column-split {
 		width: 50%;
 	}
+
 }
 
 /*--------------------------------*/
