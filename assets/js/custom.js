@@ -15,9 +15,9 @@
 	$(document).ready(function() {
 		
 	    var screenHeight = $(window).height();
-	      $('home').css('height', screenHeight + 'px');
+	      $('#home').css('height', screenHeight + 'px');
 		  
-		  console.log("hi");
+		  console.log("hello");
 
 		/* ---------------------------------------------- /*
 		 * Smooth scroll / Scroll To Top
