@@ -786,9 +786,6 @@ textarea.form-control {
 		padding: 15px 70px;
 		font-size: 16px;
 	}
-}
-
-@media (max-width: 480px) {
 
 	h1 {
 		font-size: 34px;
@@ -814,6 +811,11 @@ textarea.form-control {
 		font-size: 25px;
 	}
 	
+
+}
+
+@media (max-width: 480px) {
+
 	.column-split {
 		width: 80%;
 	}
@@ -823,6 +825,9 @@ textarea.form-control {
 		width: 74% !important;
 	}
 
+}
+
+@media (max-width: 480px) {
 }
 
 @media (min-width: 480px) {
