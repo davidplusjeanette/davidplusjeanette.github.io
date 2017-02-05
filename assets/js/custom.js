@@ -11,13 +11,14 @@
 		$('#status').fadeOut();
 		$('#preloader').delay(10).fadeOut('slow');
 	});
+	
+	$(window).resize( function() {
+
+	    var screenHeight = $(window).height();
+	      $('#home').css('height', screenHeight + 'px');
 
 	$(document).ready(function() {
 		
-	    var screenHeight = $(window).height();
-	      $('#home').css('height', screenHeight + 'px');
-		  
-		  console.log("hello");
 
 		/* ---------------------------------------------- /*
 		 * Smooth scroll / Scroll To Top
