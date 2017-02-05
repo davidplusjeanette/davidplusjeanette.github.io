@@ -771,7 +771,7 @@ textarea.form-control {
  * Media
 /* ---------------------------------------------- */
 
-@media (max-width: 768px) {
+@media (max-width: 850px) {
 	.our-story-desc {
 		font-size: 80px;
 		margin-bottom: 0px;
@@ -804,13 +804,12 @@ textarea.form-control {
 	}
 	
 	.pfblock-title {
-		font-size: 30px;
-	}
-	
-	.sub-header {
 		font-size: 25px;
 	}
 	
+	.sub-header {
+		font-size: 20px;
+	}
 
 }
 
