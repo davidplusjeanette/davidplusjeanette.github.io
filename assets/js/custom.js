@@ -1,7 +1,7 @@
 (function($){
 	
 	console.log("Built with love by Jeanette & David");
-	console.log("Photography by Geoffrey Wong - www.geoffcwong.com");
+	console.log("Photos by Geoffrey Wong Photography - www.geoffcwong.com");
 
 	/* ---------------------------------------------- /*
 	 * Preloader
@@ -13,11 +13,7 @@
 	});
 	
 
-	$(document).ready(function() {
-		
-	    var screenHeight = $(window).height();
-	    $('#home').css('height', screenHeight + 'px');
-		
+	$(document).ready(function() {	
 
 		/* ---------------------------------------------- /*
 		 * Smooth scroll / Scroll To Top
@@ -57,8 +53,7 @@
 		 * Home BG
 		/* ---------------------------------------------- */
 
-		// $(".screen-height").height($(window).height());
-		//
+
 		$(window).resize(function(){
 		    var screenHeight = $(window).height();
 		    $('#home').css('height', screenHeight + 'px');
