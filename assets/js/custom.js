@@ -12,10 +12,10 @@
 		$('#preloader').delay(10).fadeOut('slow');
 	});
 	
-	$(window).resize( function() {
-	    var screenHeight = $(window).height();
-	      $('#home').css('height', screenHeight + 'px');
-	});
+	// $(window).resize(function() {
+	//     var screenHeight = $(window).height();
+	//       $('#home').css('height', screenHeight + 'px');
+	// });
 
 	$(document).ready(function() {
 		
@@ -63,9 +63,9 @@
 
 		// $(".screen-height").height($(window).height());
 		//
-		// $(window).resize(function(){
-		// 	$(".screen-height").height($(window).height());
-		// });
+		$(window).resize(function(){
+			$("#home").height($(window).height());
+		});
 
 		if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
 			$('#home').css({'background-attachment': 'scroll'});
