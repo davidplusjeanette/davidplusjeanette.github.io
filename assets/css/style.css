@@ -323,7 +323,7 @@ textarea.form-control {
  * Home
 /* ---------------------------------------------- */
 
-@media (max-width : 768px) {
+@media (max-width: 768px) {
 	#home {
 		background: url(../images/hero-mobile.jpg);
 		background-color: #222;
@@ -341,7 +341,7 @@ textarea.form-control {
 	}
 }
 
-@media (min-width : 768px) {
+@media (min-width: 768px) {
 	#home {
 		background: url(../images/hero.jpg);
 		background-color: #222;
@@ -760,8 +760,9 @@ textarea.form-control {
  * Media
 /* ---------------------------------------------- */
 
-@media (max-width: 850px) {
-	
+
+@media (max-width: 768px) {
+
 	.ourstory-desc{
 		font-family: 'Masterblush-alt';
 		line-height: 70px;
@@ -814,10 +815,6 @@ textarea.form-control {
 	.sub-header {
 		font-size: 20px;
 	}
-
-}
-
-@media (max-width: 768px) {
 	
 	.bridal-pics-container {
 		margin: auto;
