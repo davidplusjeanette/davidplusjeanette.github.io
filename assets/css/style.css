@@ -675,7 +675,7 @@ textarea.form-control {
 }
 
 .scroll-up a {
-	background-color: rgba(135, 135, 135, 0.5);
+	background-color: rgba(135, 135, 135, 0.3);
 	display: block;
 	width: 35px;
 	height: 35px;
@@ -687,8 +687,9 @@ textarea.form-control {
 
 .scroll-up a:hover,
 .scroll-up a:active {
-	background-color: rgba(235, 235, 235, .8);
-	color: #e7746f;
+/*	background-color: rgba(235, 235, 235, .8);*/
+	background-color: #faeaff;
+	color: #333;
 }
 
 /* ---------------------------------------------- /*
