@@ -16,7 +16,7 @@
 	$(document).ready(function() {
 		
 	    var screenHeight = $(window).height();
-	      $('#home').css('height', screenHeight + 'px');
+	    $('#home').css('height', screenHeight + 'px');
 		
 
 		/* ---------------------------------------------- /*
@@ -59,9 +59,10 @@
 
 		// $(".screen-height").height($(window).height());
 		//
-		// $(window).resize(function(){
-		// 	$("#home").height($(window).height());
-		// });
+		$(window).resize(function(){
+		    var screenHeight = $(window).height();
+		    $('#home').css('height', screenHeight + 'px');
+		});
 
 		if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
 			$('#home').css({'background-attachment': 'scroll'});

@@ -422,7 +422,7 @@ textarea.form-control {
 	transform: translateY(-50%);
 }
 
-@media (max-width : 480px) {
+@media (max-width : 700px) {
 	.ourstory-desc{
 		font-family: 'Masterblush-alt';
 		line-height: 70px;
@@ -432,7 +432,7 @@ textarea.form-control {
 	}
 }
 
-@media (min-width : 480px) {
+@media (min-width : 700px) {
 	.ourstory-desc{
 		font-family: 'Masterblush-alt';
 		line-height: 100px;
